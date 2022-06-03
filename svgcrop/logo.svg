@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="209.513" viewBox="0 0 260 209.513">
+  <g id="Group_1" data-name="Group 1" transform="translate(-278 -67.487)">
+    <path id="Path_26" data-name="Path 26" d="M0,0H260V209H0Z" transform="translate(278 68)" fill="#0f65e0"/>
+    <line id="Line_1" data-name="Line 1" x2="204.385" transform="translate(278 193.487)" fill="none" stroke="#fe10c4" stroke-width="3"/>
+    <path id="Path_25" data-name="Path 25" d="M0,0H260" transform="translate(278 68.487)" fill="none" stroke="#00d4fa" stroke-width="2"/>
+    <text id="PASSE_DE_FASE" data-name="PASSE
+DE FASE" transform="translate(310 158)" fill="#fff" font-size="50" font-family="MuseoSans-900, 'Museo Sans \39 00'" font-weight="900"><tspan x="0" y="0">PASSE</tspan><tspan x="0" y="44">DE FASE</tspan></text>
+    <text id="_VAMOS_JUNTOS" data-name="#VAMOS JUNTOS" transform="translate(313 225)" fill="#fff" font-size="22" font-family="MuseoSans-900, 'Museo Sans \39 00'" font-weight="900"><tspan x="0" y="0">#VAMOS </tspan><tspan y="0" fill="#fe10c4">JUNTOS</tspan></text>
+  </g>
+</svg>

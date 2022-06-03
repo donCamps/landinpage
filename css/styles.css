@@ -1,0 +1,703 @@
+/* Font Config */
+
+@font-face {
+  font-family:'museoSans-300';
+  src: url(/font/MuseoSans-300.otf);
+}
+
+@font-face {
+  font-family: 'museoSans-700';
+  src: url(/font/MuseoSans_700.otf);
+}
+
+@font-face {
+  font-family:'museoSans-900';
+  src: url(/font/MuseoSans-900.ttf);
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+/* Chrome, Safari, Edge, Opera  */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+
+
+
+/* Global Variáveis */
+
+:root {
+  --primary-color: #002758;
+  --white-color: #fff;
+  --secondary-color: #fe10c4;
+  --midDarkBlue-color: #00398b;
+  --midLightBlue-color: #0f65e0;
+  --lightBlue-color: #2680eb;
+  --input-fill-color: #003c89;
+
+  --gap-pateral: 9.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-size: 1rem;
+  font-family:'museoSans-300';
+}
+
+h1{
+  font-size: 2.7rem;
+  font-family:'museoSans-700';
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 1.563rem;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 0.781rem;
+}
+
+
+
+/* Navbar e logo */
+
+header .navCont{
+  background-color: var(--secondary-color);
+}
+
+.blueBar{
+  background-color: var(--primary-color);
+  padding:5rem 0 0 0;
+}
+
+
+.navbar-brand img{
+  position: absolute;
+  top: -3.5rem;
+  max-width: 200px;
+  transition: all 300ms ease-in;
+}
+
+.hidden{
+  display:none;
+}
+
+.navbar-nav .nav-link .link-color{
+  color: var(--white-color);
+}
+
+/* slideShow */
+
+.carousel-inner{
+  z-index: -1;
+}
+
+.carousel-indicators [data-bs-target]{
+  max-width: 40px;
+  width: 20px;
+  height: 20px;
+  max-height: 40px;
+  border-radius: 100%;
+}
+
+.carousel-indicators [data-bs-target].active{
+  background-color: var(--secondary-color);
+}
+
+.carousel{
+  position: relative;
+} 
+
+.carousel .ctaButton{
+  position:absolute;
+  bottom: 0;
+  top: 66%;
+  left:33%;
+  right: 0;
+  padding-bottom: 5.125rem  ;
+} 
+
+.ctaButton button{
+  background-color: var(--secondary-color);
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0;
+  border: none;
+  height: fit-content;
+  padding: .5rem .1rem;
+  max-width: 50%;
+  width: 30%;
+}
+
+.ctaButton [type]:hover{
+  background-color: var(--midLightBlue-color);
+}
+
+/* Objetivos */
+
+.objetivos{
+  padding: 2rem 0;
+}
+
+
+.objetivos h1{
+  color: var(--secondary-color);
+  font-family:'museoSans-900';
+}
+
+.objetivos p{
+  color: var(--primary-color);
+  width:55%;
+  font-family:'museoSans-300' ;
+  font-weight: 500;
+}
+
+.objetivos .objetivosBox p {
+  font-family: 'museoSans-700';
+}
+
+.objetivos .row .col-md{
+  position: relative;
+  text-align: center;
+  border: .1rem solid rgb(194, 194, 194);
+  margin: 0.313rem;
+  padding:1.5rem .5rem ;
+}
+
+.objetivos .row .col-md h3{
+  font-family: 'museoSans-700';
+  color: var(--primary-color);
+  width: 50%;
+  margin: 0 auto;
+  padding: .5rem;
+}
+
+.objetivos .row .col-md p{
+  width: 50%;
+  margin:0 auto;
+}
+
+.objetivos .row .col-md::after{
+  position: absolute;
+  content: "";
+  border-radius: 0 0 1rem 0;
+  top: 0;
+  left:0;
+  width: 0%;
+  height: .6rem;
+  background-color: var(--secondary-color);
+  transition: 300ms ease-in;
+}
+
+.objetivos .row .col-md:nth-child(2) a{
+  display: block;
+  width: 50%;
+  margin: .5rem auto;
+}
+
+.objetivos .row .col-md svg{
+  color: #026be4;
+}
+
+
+/* HoverState */
+
+.objetivos .row .col-md:hover::after{
+  width: 60%;
+  transition: 300ms ease-in;
+}
+
+.objetivos .row .col-md:hover{
+  background-color: var(--midLightBlue-color);
+  cursor: pointer;
+  color: white;
+  
+}
+.objetivos .row .col-md:hover svg{
+  color: white;
+}
+
+.objetivos .row .col-md:hover p{
+  color: white;
+}
+
+.objetivos .row .col-md:nth-child(2) a:hover{
+  display: block;
+  width: 50%;
+  margin: .5rem auto;
+  background-color: var(--primary-color);
+}
+
+.ctaObj{
+  margin: 3rem auto;
+  text-transform: uppercase;
+  display: block;
+  width: 32%;
+  border-radius: 0;
+  border: 0;
+  background-color: var(--midLightBlue-color);
+}
+
+.ctaObj:hover{
+  background-color: var(--secondary-color);
+}
+
+/* Como Funciona */
+
+
+.row .primeiraComo{
+  width: 100%;
+  color: white;
+  background-color: var(--midDarkBlue-color);
+  padding: 5rem;
+  min-width: 21.25rem;
+}
+
+.row .primeiraComo .iconComo{
+  width: 25%;
+  min-width: 8.5rem;
+  margin: 0 0 auto auto;
+}
+
+.row .primeiraComo h1{
+  text-align: right;
+  font-family:'museoSans-900';
+}
+
+.row .primeiraComo h1 span{
+  color: var(--secondary-color);
+}
+
+.row .segundaComo{
+  background-color: var(--lightBlue-color);
+  color: white;
+  padding: 5rem;
+  min-width: 21.25rem;
+}
+
+.row .segundaComo p span{
+  margin-right:1rem ;
+}
+
+.row .segundaComo p{
+  margin: 0 auto auto 0 ;
+  line-height: 2;
+  padding-bottom: 1rem;
+}
+
+.row .terceiraComo{
+  padding: 5rem;
+}
+
+.row .terceiraComo .iconSeuP{
+  width: 25%;
+  min-width: 8.5rem;
+  margin: 0 0 auto auto;
+}
+
+.row .terceiraComo h1{
+  text-align: right;
+  font-family:'museoSans-900';
+  color: var(--primary-color);
+}
+
+.row .terceiraComo h1 span{
+  color: var(--secondary-color);
+}
+
+.row .terceiraComo p{
+  text-align: right;
+  width: 50%;
+  margin:0 0 auto auto;
+  color: var(--midDarkBlue-color);
+  font-family: 'museoSans-700';
+}
+
+.row .quartaComo{
+  position: relative;
+  padding: 3rem;
+  align-items: center;
+}
+
+.row .quartaComo ul{
+  list-style-type: none;
+  min-width: 2rem;
+  padding-top:1rem; 
+  padding-bottom:1rem; 
+}
+
+.quartaComoSize{
+  width: 60%;
+  min-width: 18.125rem;
+}
+
+
+
+.row .quartaComo .ul-conversao li{
+  display: block;
+  padding: 1rem 2.5rem;
+  width: 100%;
+  margin-bottom: .6rem;
+  background-color: var(--midLightBlue-color);
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+
+.row .quartaComo .ul-conversao li:nth-child(1){
+  background-color: var(--primary-color);
+}
+
+.row .quartaComo .ul-conversao li:nth-child(2){
+  background-color: var(--secondary-color);
+}
+
+.row .quartaComo .ul-conversao li:nth-child(5){
+  background-color: var(--secondary-color);
+}
+
+.ctaCf{
+  margin: 3rem auto;
+  text-transform: uppercase;
+  display: block;
+  width: 32%;
+  border-radius: 0;
+  border: 0;
+  background-color: var(--secondary-color);
+}
+
+.ctaCf:hover{
+  background-color: var(--midLightBlue-color);
+}
+
+
+/* Relatórios */
+
+
+.relatorios .row .col-sm{
+  padding: 5rem;
+}
+
+.relatorios .row .col-sm .relatMensalImg{
+  position: relative;
+  width: 25%;
+  min-width: 8.5rem;
+  margin: 0 0 auto auto;
+}
+
+.relatorios .row .col-sm .mensalTitulo{
+  position: absolute;
+  text-align: right;
+  font-size: 2rem;
+  font-family:'museoSans-900';
+  color: var(--secondary-color);
+  top: -3.7rem;
+  right: 8rem;
+}
+
+.relatorios .row .col-sm .mensalTitulo span{
+  color: var(--primary-color);
+}
+
+.relatorios .row .col-sm .relatMensalTextos{
+  color: var(--midDarkBlue-color);
+  font-family: 'museoSans-700';
+  width: 60%;
+}
+
+.relatorios .row .col-sm .relatMensalTextos span{
+  margin-right:1rem ;
+}
+
+.relatorios .row .col-sm .planejamentoTexto{
+  color: var(--midDarkBlue-color);
+  font-family: 'museoSans-700';
+  width: 40%;
+  text-align: right;
+  margin: 0 0 auto auto;
+}
+
+.relatorios .row .col-sm .planejamentoMensalImg{
+  position: relative;
+  width: 25%;
+  min-width: 8.5rem;
+}
+
+.relatorios .row .col-sm .planejamentoMensalImg h1{
+  position: absolute;
+  top: -3rem;
+  text-align: right;
+  font-size: 2rem;
+  font-family:'museoSans-900';
+  color: var(--secondary-color);
+}
+
+.relatorios .row .col-sm .planejamentoMensalImg h1 span{
+  color: var(--primary-color);
+}
+
+
+.ctaRelat{
+  margin: 3rem auto;
+  text-transform: uppercase;
+  display: block;
+  width: 32%;
+  border-radius: 0;
+  border: 0;
+  background-color: var(--midLightBlue-color);
+}
+
+.ctaRelat:hover{
+  background-color: var(--secondary-color);
+}
+
+
+/* Contato */
+
+.contato{
+  background-color: var(--primary-color);
+}
+
+.contato .container .row .col-sm.space{
+  padding: 5rem;
+}
+
+.contato .container .row .contImg{
+  width:25%;
+  margin: 0 0 auto auto;
+}
+
+
+.contato .container .row:nth-child(1){
+  display: flex;
+  align-items: flex-end;
+}
+
+.contato .container .row .contatoBox1 h1{
+  text-align: right;
+  font-size: 2rem;
+  font-family:'museoSans-900';
+  color: var(--secondary-color);
+}
+
+.contato .container .row .contatoBox1 h1 span{
+  color: var(--white-color);
+}
+
+.contato .container .row .contatoBox1 p{
+  color: var(--white-color);
+  font-family: 'museoSans-700';
+  width: 60%;
+  text-align: right;
+  margin: 0 0 auto auto;
+}
+
+/* Form */
+
+form label{
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-size: .7rem;
+}
+
+form .inputArea{
+  background-color: var(--input-fill-color);
+  border: transparent;
+  border-radius: 0;
+}
+
+
+form .areaDeTexto{
+  max-height: 3rem;
+  background-color: var(--input-fill-color);
+  border: transparent;
+  border-radius: 0;
+}
+
+form .formBtn{
+  display: flex;
+  justify-content: end;
+  margin-top: .5rem;
+}
+
+.formBtn button{
+  text-transform: uppercase;
+  display: block;
+  width: 32%;
+  border-radius: 0;
+  border: 0;
+  background-color: var(--secondary-color);
+}
+
+
+/* Footer */
+
+footer{
+  padding: 4rem;
+}
+
+footer p{
+  color: var(--primary-color);
+  font-family: 'museoSans-300';
+  font-weight: 600;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+
+
+
+/* Individual Query ul */
+
+@media (max-width:786px){
+  .quartaComoSize{
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MediasQuery */
+
+@media (max-width: 768px){
+  /* Logo */
+  .navbar-brand img{
+    position: absolute;
+    top: -.5rem;
+    width:100px;
+  }
+
+  /* CTA */
+
+
+  
+.ctaButton [type]{
+  background-color: var(--secondary-color);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .6rem;
+  border-radius: 0;
+  border: none;
+  height: fit-content;
+  padding: .5rem .1rem;
+  min-width: 5.512rem;
+  width: 20%;
+}
+
+/* Carousel Indicators */
+.carousel-indicators {
+  margin-bottom: 0;
+}
+
+.carousel-indicators [data-bs-target]{
+  max-width: 20px;
+  width: 10px;
+  height: 10px;
+  max-height: 20px;
+  border-radius: 100%;
+}
+
+/* Objetivos */
+
+.objetivos h1{
+  color: var(--secondary-color);
+  font-family:'museoSans-900';
+  text-align: center;
+}
+
+.objetivos p{
+  color: var(--primary-color);
+  width:55%;
+  font-family:'museoSans-300' ;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto;
+}
+}
+
+/* Query Ajustes mobile */
+
+@media (max-width:502px){
+  .carousel .ctaButton{
+    position:absolute;
+    bottom: 0;
+    top: 55%;
+    left:33%;
+    right:0;
+    padding-bottom: 5.125rem  ;
+  } 
+
+  .ctaObj{
+    margin: 3rem auto;
+    text-transform: uppercase;
+    display: block;
+    width: 60%;
+    border-radius: 0;
+    border: 0;
+    background-color: var(--midLightBlue-color);
+  }
+
+}
+
+
+
+@media (min-width: 800px){
+.comoFunciona .row .primeiraComo {
+    flex: 1 0 0%;
+}
+.comoFunciona .row .segundaComo{
+    flex: 1 0 0%;
+}
+.comoFunciona .row .terceiraComo {
+    flex: 1 0 0%;
+}
+.comoFunciona .row .quartoComo {
+    flex: 1 0 0%;
+}
+
+.comoFunciona .row .rMensal{
+  flex: 1 0 0%;
+}
+
+.comoFunciona .row .pMensal{
+  flex: 1 0 0%;
+}
+
+}

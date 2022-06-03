@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="573.605" height="417" viewBox="0 0 573.605 417">
+  <g id="Group_235" data-name="Group 235" transform="translate(-1009.384 -2906.5)">
+    <g id="Group_233" data-name="Group 233" transform="translate(-25 -7)">
+      <g id="Group_231" data-name="Group 231">
+        <g id="Group_230" data-name="Group 230">
+          <g id="Group_229" data-name="Group 229">
+          </g>
+          <line id="Line_2" data-name="Line 2" x1="32.105" transform="translate(1035.384 2946)" fill="none" stroke="#2680eb" stroke-width="2" stroke-dasharray="2"/>
+          <line id="Line_7" data-name="Line 7" y1="348" transform="translate(1035.384 2946)" fill="none" stroke="#2680eb" stroke-width="2" stroke-dasharray="2"/>
+          <line id="Line_3" data-name="Line 3" x1="32.105" transform="translate(1035.384 3036)" fill="none" stroke="#2680eb" stroke-width="2" stroke-dasharray="2"/>
+          <line id="Line_4" data-name="Line 4" x1="32.105" transform="translate(1035.384 3122)" fill="none" stroke="#2680eb" stroke-width="2" stroke-dasharray="2"/>
+          <line id="Line_5" data-name="Line 5" x1="32.105" transform="translate(1035.384 3208)" fill="none" stroke="#2680eb" stroke-width="2" stroke-dasharray="2"/>
+          <line id="Line_6" data-name="Line 6" x1="32.105" transform="translate(1035.384 3294)" fill="none" stroke="#2680eb" stroke-width="2" stroke-dasharray="2"/>
+        </g>
+        <line id="Line_8" data-name="Line 8" x2="38" transform="translate(1512.181 3036)" fill="none" stroke="#fe10c4" stroke-width="2"/>
+        <line id="Line_10" data-name="Line 10" y2="258" transform="translate(1550.181 3036)" fill="none" stroke="#fe10c4" stroke-width="2"/>
+        <line id="Line_9" data-name="Line 9" x2="38" transform="translate(1512.181 3294)" fill="none" stroke="#fe10c4" stroke-width="2"/>
+        <path id="Polygon_1" data-name="Polygon 1" d="M9,0l9,16H0Z" transform="translate(1503.99 3045.5) rotate(-90)" fill="#fe10c4"/>
+      </g>
+    </g>
+    <g id="Group_234" data-name="Group 234">
+      <text id="CONVERSÃO" transform="translate(1560.99 3281.5) rotate(-90)" fill="#05398b" font-size="18" font-family="MuseoSans-900, 'Museo Sans \39 00'" font-weight="900" letter-spacing="-0.05em"><tspan x="59" y="17">CONVERSÃO</tspan></text>
+      <text id="Visitante_de_volta_ao_seu_site." data-name="Visitante de volta ao seu site." transform="translate(1538.99 3260.5) rotate(-90)" fill="#fe10c4" font-size="18" font-family="MuseoSans-500, 'Museo Sans \35 00'" font-weight="500" letter-spacing="-0.05em"><tspan x="0" y="17">Visitante de volta ao seu site.</tspan></text>
+    </g>
+  </g>
+</svg>
