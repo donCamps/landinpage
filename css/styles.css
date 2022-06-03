@@ -40,6 +40,7 @@ input[type="number"] {
 
 :root{
   --bs-font-sans-serif: 'museoSans-300', 'museoSans-700','museoSans-900';
+  --bs-font-monospace:  'museoSans-300', 'museoSans-700','museoSans-900';
 }
 
 
