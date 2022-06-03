@@ -2,17 +2,17 @@
 
 @font-face {
   font-family:'museoSans-300';
-  src: url(/font/MuseoSans-300.otf);
+  src: local(/font/MuseoSans-300.otf);
 }
 
 @font-face {
   font-family: 'museoSans-700';
-  src: url(/font/MuseoSans_700.otf);
+  src: local(/font/MuseoSans_700.otf);
 }
 
 @font-face {
   font-family:'museoSans-900';
-  src: url(/font/MuseoSans-900.ttf);
+  src: local(/font/MuseoSans-900.ttf);
 }
 
 /* font-family: 'Open Sans', sans-serif;
