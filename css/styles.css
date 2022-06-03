@@ -37,6 +37,7 @@ input[type="number"] {
 
 /* Global Variáveis */
 
+
 :root {
   --primary-color: #002758;
   --white-color: #fff;
@@ -45,6 +46,7 @@ input[type="number"] {
   --midLightBlue-color: #0f65e0;
   --lightBlue-color: #2680eb;
   --input-fill-color: #003c89;
+  --bs-font-sans-serif: 'museoSans-300', 'museoSans-700','museoSans-900';
 
   --gap-pateral: 9.5rem;
 }
